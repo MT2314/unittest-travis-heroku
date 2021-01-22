@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- stable
+npm: true
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: {PUT_YOUR_OWN_API_KEY_HERE}
+  # Change app to http after heroku create
+  app: guarded-badlands-95004
+  on:
+    repo: MT2314/unittest-travis-heroku
