@@ -15,8 +15,8 @@ const server = app.listen(PORT, () => {
   console.log('app running on port ', PORT);
 });
 
-// ES Lint works in comment. Bottom line tells lint to ignore the console.log 
-//(lint doesnt like console.log)
+// ES Lint works in comment. Bottom line tells lint to ignore the console.log
+// (lint doesnt like console.log)
 // eslint-disable-next-line no-console
 console.log('server.js: file has finished reading');
 

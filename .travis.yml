@@ -8,8 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
-  # Change app to http after heroku create
-  app: guarded-badlands-95004
+    secure: AfEMR0AHFuKxgoUzFcU/lo60H7V4diuYntrPwqVroHQJne2K7VTlZZ2a2x6isgT1+fvnqW8pFozbl3OCYfxSCt17rmjo/XLlpf/0C54TiT8Mjl8hYzDAitPW4gtA0Hgo3yC45/F6l1yP+q3cMIBN8hCzPydc2XnqJkUAWDbY58xDSbjFGhziRdKwWtTrmhmUDkU9Rjr38K05rw2fhNYSiFsGCh1uhBTijnU2IsUy26NMn4mJwdVpycSMyEq6P3+NPJ6ZDYPfWQs4C6VcNjJf3xDRqvpknSOykxKYs1t5I/efnze4kxmalEe0V9U637As6tzf1VXQcS4qU0t96wl02DbD5BaWw/lZjpvWM9+X0+hpukH5jxxOz324V0bI6O9d41BuRzLp+FOMh6kSMMpU24c+u87N/VjZtEEZnTzLaIi3Fby7YKnMG8epz+lPZBKNwndC7NsN1rkcgRow0l+prOLsMmNspMVcsgrai+bnoKQ7txuPBpX75+EnAMI7m0gaoruCXTEYGJ8dzdVhrNQ2VVvhYYM/dg9voAv9uX54b+s7NUwzbehS49uJWmFZjyejaCqnbGB/zob+MZKzkXzB56AQanFbWbies4pp5VbtZHvH8SXrMxDvYH9oHKpXj66ijoh6lAFht8yHgGSURjm9iRNj8q1q8/i+CTQG3Hj+xG8=
+  app: unittest-travis-heroku
   on:
     repo: MT2314/unittest-travis-heroku
+  skip_cleanup: 'true'
